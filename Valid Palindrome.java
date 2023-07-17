@@ -4,6 +4,7 @@ class Solution {
         if(s.isEmpty()){
             return true;
         }
+        //we're using two pointers here start and last which will travel towards each other until they're at the same position
         int start = 0;
         int last = s.length() -1;
         while(start<=last){
