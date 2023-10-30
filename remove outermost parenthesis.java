@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
     public String removeOuterParentheses(String s) {
         Stack<Character> stack = new Stack<>();
         StringBuilder str = new StringBuilder();
